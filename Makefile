@@ -1,0 +1,4 @@
+COMPONENT=ReadSensorAppC
+PFLAGS += -I ./mda300ca
+include $(MAKERULES)
+PFLAGS+=-DCC2420_DEF_CHANNEL=20
